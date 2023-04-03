@@ -1,1 +1,68 @@
 
+<!DOCTYPE html> 
+<html>
+
+  <head>
+    
+    <title> My 1st Calculator </title>
+    <link rel="stylesheet" href="sss.css">
+  </head> 
+
+  <body>
+    <center>
+   <h1 id="first_heading"> Shivam Calculator</h1>
+   <h1 id="second_heading"> Online Calculator</h1>
+    
+    <table>
+      <b>
+      <tr>
+        <td colspan="3"><input type="text" id="textbox" disabled></td>
+        <td><button onclick="clear_screen()">C</button></td>
+      </tr>
+        
+      <tr>
+        <td><button onclick="update_text('1')">1</button></td>
+        <td><button onclick="update_text('2')">2</button></td>
+        <td><button onclick="update_text('3')">3</button></td>
+        <td><button onclick="update_text('+')">+</button></td>
+      </tr>
+      
+      <tr>
+      <td><button onclick="update_text('4')">4</button></td>
+      <td><button onclick="update_text('5')">5</button></td>
+      <td><button onclick="update_text('6')">6</button></td>
+      <td><button onclick="update_text('-')">-</button></td>
+      </tr>
+      <tr>
+      <td><button onclick="update_text('7')">7</button></td>
+      <td><button onclick="update_text('8')">8</button></td>
+      <td><button onclick="update_text('9')">9</button></td>
+      <td><button onclick="update_text('*')">x</button></td>
+      </tr>
+      
+      <tr>
+        <td><button onclick="update_text('0')">0</button></td>
+        <td><button onclick="update_text('.')">.</button></td>
+        <td><button onclick="update_text('/')">/</button></td>
+        <td><button onclick="calculate_result()">=</button></td>
+      </tr>
+    </center>
+    </b>
+      
+
+        <script>
+          function update_text(data_recieved){
+            document.getElementById('textbox').value += data_recieved
+        }
+            function calculate_result(){
+              document.getElementById('textbox').value=eval( document.getElementById('textbox').value)
+            }
+            function clear_screen(){
+              document.getElementById('textbox').value=''
+            }
+          </script> 
+
+    </table>
+    
+  </body>
+</html>
