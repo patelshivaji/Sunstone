@@ -16,4 +16,4 @@ This project was built using HTML, CSS, and JavaScript. I used Git and GitHub to
 
 ## Contact Me
 
-If you have any questions or comments about my portfolio, please feel free to contact me at [myemail@example.com](mailto:myemail@example.com). You can also find me on LinkedIn at [linkedin.com/in/myprofile](https://www.linkedin.com/in/myprofile/).
+If you have any questions or comments about my portfolio, please feel free to contact me at [BCA22.Shivaji@sunstone.edu.in](mailto:BCA22.Shivaji@sunstone.edu.in). 
